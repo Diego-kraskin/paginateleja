@@ -1,0 +1,79 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 20%;
+}
+
+.lead-1 {
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #09102d;
+}
+
+.carousel-caption h2::before {
+    content: "";
+    border-left: 8px solid #b3fd74;
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+
+.carousel-caption h3 {
+    font-style: italic;
+    font-weight: bold;
+    color: #09102d;
+    padding-top: 15px;
+}
+
+
+
+.carousel-caption p {
+    font-style: italic;
+    color: #09102d;
+    padding-top: 15px;
+}
+
+
+
+.carousel-indicators {
+    text-align: left;
+    float: left;
+    left: 0% !important;
+    right: inherit;
+    bottom: 3%;
+}
+
+.carousel-indicators li {
+    height: 8px;
+    width: 81px;
+    background-color: rgb(9, 16, 45, 0.5);
+    opacity: 1;
+}
+
+.lead{
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #09102d;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-caption {
+        display: block !important;
+    }
+}
