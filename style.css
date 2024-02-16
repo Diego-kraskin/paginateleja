@@ -114,4 +114,8 @@
         margin-left: -50px;
        
     }
+
+    .carousel-indicators{
+        margin-left: 92px;
+    }
 }
