@@ -71,6 +71,7 @@
 .progress-bar {
     background-color: #09102d;
 }
+
 @media screen and (max-width: 767px) {
     .carousel-caption {
         display: block !important;
@@ -108,5 +109,9 @@
         font-size: 1.0rem;
         width: 280px;
         display: block;
+    }
+
+    .carousel-item{
+        width: 100%;
     }
 }
