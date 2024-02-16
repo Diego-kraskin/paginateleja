@@ -80,23 +80,26 @@
 
 @media screen and (max-width: 767px) {
     .carousel-caption {
-        display: block !important;
-        background-color: white; /* Adiciona o background branco */
+        width: 500px;
+        display: block ;
+        background-color: rgba(255, 255, 255, 0.62); /* Adiciona o background branco */
     }
 }
 
 
 @media screen and (max-width: 767px) {
     p { margin-left: 15px;
+        width: 300px;
         display: block !important;
-        background-color: white; /* Adiciona o background branco */
+        background-color: rgba(255, 255, 255, 0); /* Adiciona o background branco */
     }
 }
 
 @media screen and (max-width: 767px) {
     h3 { margin-left: 15px;
+        width: 350px;
         display: block !important;
-        background-color: white; /* Adiciona o background branco */
+        background-color: rgba(255, 255, 255, 0); /* Adiciona o background branco */
     }
 }
 
@@ -106,6 +109,24 @@
         background-color: white; /* Adiciona o background branco */
     }
 }
+
+@media screen and (max-width: 767px) 
+{
+    .container-fluid{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) 
+{
+    .display-4{
+        font-size: 3.0rem;
+        width: 380px;
+        display: block;
+    }
+}
+
+     
 
 
 
