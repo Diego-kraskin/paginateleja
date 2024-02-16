@@ -2,7 +2,6 @@
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
-    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -109,5 +108,10 @@
 
     .carousel-item{
         width: 100%;
+    }
+
+    .carousel{
+        margin-left: -50px;
+       
     }
 }
