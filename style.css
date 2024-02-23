@@ -107,7 +107,10 @@
     }
 
     .carousel-item{
-        width: 100%;
+        background-position: 80% 100%;
+        
+        
+  
     }
 
     .carousel{
@@ -116,6 +119,8 @@
     }
 
     .carousel-indicators{
-        margin-left: 92px;
+        margin-left: 82px;
     }
+
+    
 }
